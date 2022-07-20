@@ -11,9 +11,7 @@
   <properties>
       <!-- This property will be set by the Maven Dependency plugin -->
       <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>     
-      <maven.compiler.source>1.8</maven.compiler.source>
-      <maven.compiler.target>1.8</maven.compiler.target>
- </properties>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
