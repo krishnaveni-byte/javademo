@@ -12,7 +12,7 @@
       <!-- This property will be set by the Maven Dependency plugin -->
       <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
   </properties>
-
+so
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -92,7 +92,7 @@
 	<plugin>
           <groupId>org.codehaus.mojo</groupId>
          <artifactId>sonar-maven-plugin</artifactId>
-         <version>3.0.2</version>
+         <version>4.5.4</version>
        </plugin>
       <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
