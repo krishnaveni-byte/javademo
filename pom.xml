@@ -32,7 +32,7 @@ so
     </dependency>
     <dependency>
         <groupId>org.checkerframework</groupId>
-        <artifactId>jdk8</artifactId>
+        <artifactId>jdk17</artifactId>
         <version>1.9.4</version>
     </dependency>
   </dependencies>
@@ -59,7 +59,7 @@ so
       <plugin>
 	<groupId>org.apache.maven.plugins</groupId>
 	<artifactId>maven-shade-plugin</artifactId>
-	<version>2.1</version>
+	<version>3.9</version>
 	<executions>
 	  <execution>
 	    <phase>package</phase>
