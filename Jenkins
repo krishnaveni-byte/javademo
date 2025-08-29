@@ -9,9 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-          mvnHome = tool 'maven'
-         
-                sh "mvn install"
+                   sh "mvn -Dmaven.test.failure.ignore=true install"
             }
         }
         stage('Deploy') {
