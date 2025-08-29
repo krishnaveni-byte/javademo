@@ -1,0 +1,23 @@
+pipeline {
+    agent server1
+    stages {
+        stage('scm') {
+            steps {
+                git 'https://github.com/krishnaveni-byte/javademo.git'
+              
+            }
+        }
+        stage('Build') {
+            steps {
+          mvnHome = tool 'maven'
+         
+                sh "mvn install"
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo " buils is success"
+            }
+        }
+    }
+}
